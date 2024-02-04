@@ -5,7 +5,6 @@ import pyautogui
 #창프입(398,418)
 #확인(1109, 158)
 while True:
-    # pyautogui.moveTo(280, 445) #장구니조회
     pyautogui.click(x=280, y=445)
 
 # pyautogui.moveTo(380, 354) #컴네누르기
