@@ -7,4 +7,4 @@ for i in range(9):
             max=a[i][j]
             b=i;c=j
 print(max)
-print(b,c)
+print(b+1,c+1)
