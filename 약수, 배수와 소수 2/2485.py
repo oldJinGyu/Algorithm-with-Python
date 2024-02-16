@@ -1,5 +1,4 @@
-import sys
-import math
+import sys, math
 input=sys.stdin.readline
 a=[];b=[]
 n=int(input())

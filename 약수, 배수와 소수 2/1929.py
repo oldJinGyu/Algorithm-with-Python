@@ -10,7 +10,7 @@ def find(num):
             for i in range(p**2,num+1,p):
                 l[i]=False
         p+=1
-    for i in range(2,n+1):
+    for i in range(2,num+1):
         if l[i]:
             r.append(i)
     return r
