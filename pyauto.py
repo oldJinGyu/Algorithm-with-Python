@@ -6,18 +6,7 @@ import pyautogui
 #확인(1109, 158)
 while True:
     pyautogui.click(x=280, y=445)
-
-# pyautogui.moveTo(380, 354) #컴네누르기
-    pyautogui.click(x=380, y=354)
-# pyautogui.moveTo(1109, 158) #확인 누르기
-# pyautogui.click()
-
-    # pyautogui.moveTo(388, 410) #식건누르기
-    pyautogui.click(x=388,y=410)
-# pyautogui.moveTo(1109, 158) #확인 누르기
-# pyautogui.click()
-
-    # pyautogui.moveTo(398, 415) #창프입 누르기
-    pyautogui.click(x=398,y=415)
+    pyautogui.click(x=384, y=432)
+    pyautogui.click(x=384, y=447)
 # pyautogui.moveTo(1109, 158) #확인 누르기
     pyautogui.click(x=1109, y=158)
