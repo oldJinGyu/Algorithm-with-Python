@@ -17,7 +17,10 @@ for i in kings:
         elif i[j]=='*':
             num*=nums[j+1]
         elif i[j]=='/':
-            num//=nums[j+1]
+            if num<0:
+                num=-(-num//nums[j+1])
+            else:
+                num//=nums[j+1]
     rs.append(num)
 print(max(rs))
 print(min(rs))
