@@ -27,7 +27,8 @@ def solution(n, wires):
                 graph[j[1]].append(j[0])
         visited=[False]*(n+1)
         r=[]
-        result.append(abs(len(dfs(graph,1,visited,r))-(n-len(dfs(graph,1,visited,r)))-1))
-    return min(result)
+        print(dfs(graph,1,visited,r))
+        # result.append(abs(len(dfs(graph,1,visited,r))-(n-len(dfs(graph,1,visited,r)))-1)) #왜 -1을 더 해줘야 원하는 값이 나오는가?
+    return 0
 
 print(solution(n,wires))
