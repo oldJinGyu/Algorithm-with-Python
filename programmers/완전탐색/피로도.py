@@ -23,7 +23,7 @@ def solution(k, dungeons):
                 cnt-=1
             else:
                 dfs(n+1,k,cnt,False)
-    dfs(0, k, 0, -1)
+    dfs(0, k, 0, True)
     answer = max(result)
     return answer
 print(solution(k, dungeons))
