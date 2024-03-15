@@ -56,11 +56,9 @@ def solution(name):
         pass
     elif startA>=endA:
         a=answer
-        print(a+(midA-1)*2+len(name)-lastAidx-1,a+len(name)-(startA+1),a+Aidx+(len(name)-endA2-1)*2)
         answer=min(a+(midA-1)*2+len(name)-lastAidx-1,a+len(name)-(startA+1),a+Aidx+(len(name)-endA2-1)*2)
     else:
         a=answer
-        print(a+(midA-1)*2+len(name)-lastAidx-1,a+len(name)-(endA+1),a+Aidx+(len(name)-endA2-1)*2)
         answer=min(a+(midA-1)*2+len(name)-lastAidx-1,a+len(name)-(endA+1),a+Aidx+(len(name)-endA2-1)*2)
     return answer
 

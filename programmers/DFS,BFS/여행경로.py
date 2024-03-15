@@ -12,8 +12,6 @@ def solution(tickets):
     answer.append('ICN')
     tlen=len(tickets)
     def dfs(n,tickets,start,lst,answer):
-        print(*lst)
-        print()
         if n==tlen:
             answer+=lst
             return True

@@ -22,8 +22,7 @@ def solution(n, lost, reserve):
             lst[i-1]-=1
         if lst[i]==0 and lst[i+1]==2:
             lst[i]+=1
-            lst[i-1]-=1
-        print(lst)
+            lst[i+1]-=1
     for i in range(1,n+1):
         if lst[i]==1 or lst[i]==2:
             answer+=1
